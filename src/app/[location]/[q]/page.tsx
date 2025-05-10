@@ -51,7 +51,7 @@ export async function generateMetadata({
 
   const canonicalUrl = new URL(
     `/location/${locationDecoded}/${qDecoded}`,
-    "https://example.com" // Replace with your actual base URL
+    "https://www.romantic-vacations-destinations.com" // Replace with your actual base URL
   ).toString();
 
   const canonical = removeUTMParams(canonicalUrl);
@@ -59,7 +59,7 @@ export async function generateMetadata({
   return {
     title,
     description,
-    metadataBase: new URL("https://example.com"), // Replace with your actual base URL
+    metadataBase: new URL("https://www.romantic-vacations-destinations.com"), // Replace with your actual base URL
     alternates: {
       canonical: canonical,
     },
